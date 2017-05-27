@@ -54,7 +54,7 @@
 /*==================[internal functions definition]==========================*/
 
 /*==================[external functions definition]==========================*/
-extern int16_t funcion(uint16_t a, uint16_t b)
+extern int16_t sumaint(uint16_t a, uint16_t b)
 {
     return a+b;
 }

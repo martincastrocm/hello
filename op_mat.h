@@ -66,7 +66,7 @@ extern "C" {
  ** \param[in]    b second parameter ...
  ** \return E_OK  returns ...
  **/
-extern int32_t funcion(uint8_t a, uint32_t b);
+extern int16_t sumaint16(uint16_t a, uint16_t b);
 
 /*==================[cplusplus]==============================================*/
 #ifdef __cplusplus
