@@ -54,9 +54,19 @@
 /*==================[internal functions definition]==========================*/
 
 /*==================[external functions definition]==========================*/
-extern int16_t sumaint(uint16_t a, uint16_t b)
+extern int16_t sumaint(int16_t a, int16_t b)
 {
-    return a+b;
+	int32_t suma;
+	suma = a+b;
+
+	if(suma>32767){
+		return 32767;
+	}else if(suma<-32768){
+		return -32768;
+	}else{
+		return suma;
+	}
+
 }
 
 /** @} doxygen end group definition */

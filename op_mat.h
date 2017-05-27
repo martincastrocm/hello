@@ -56,7 +56,7 @@ extern "C" {
 /*==================[typedef]================================================*/
 
 /*==================[external data declaration]==============================*/
-
+#include "stdint.h"
 /*==================[external functions declaration]=========================*/
 /** \brief resumen de lo que hace la función
  **
@@ -66,7 +66,7 @@ extern "C" {
  ** \param[in]    b second parameter ...
  ** \return E_OK  returns ...
  **/
-extern int16_t sumaint16(uint16_t a, uint16_t b);
+extern int16_t sumaint16(int16_t a, int16_t b);
 
 /*==================[cplusplus]==============================================*/
 #ifdef __cplusplus
