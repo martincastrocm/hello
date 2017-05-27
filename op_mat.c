@@ -41,7 +41,7 @@
  ** @{ */
 
 /*==================[inclusions]=============================================*/
-#include "template.h"
+#include "op_mat.h"
 
 /*==================[macros and definitions]=================================*/
 
@@ -54,9 +54,9 @@
 /*==================[internal functions definition]==========================*/
 
 /*==================[external functions definition]==========================*/
-extern int32_t funcion(uint8_t a, uint32_t b)
+extern int16_t funcion(uint16_t a, uint16_t b)
 {
-    return 0;
+    return a+b;
 }
 
 /** @} doxygen end group definition */
